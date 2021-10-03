@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.redhat.developergames</groupId>
 	<artifactId>spring-boot-datagrid-challenge</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>Boosting the Performance and Availability of Spring Boot with Datagrid Caches</name>
 	<description>Challenge to learn how to use Spring Cache and Spring Session with Data Grid.</description>
 	<properties>
@@ -49,6 +49,21 @@
 			<version>${version.infinispan}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>5.3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>io.dekorate</groupId>
+			<artifactId>openshift-spring-starter</artifactId>
+			<version>2.5.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.dekorate</groupId>
+			<artifactId>docker-annotations</artifactId>
+			<version>2.5.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
